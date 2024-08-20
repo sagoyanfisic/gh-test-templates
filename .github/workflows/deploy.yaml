@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: sagoyanfisic/gh-actions-template@main
+        uses: sagoyanfisic/gh-actions-template@v2
         with:
           who-to-greet: 'Mona the Octocat'
       - run: echo random-number "$RANDOM_NUMBER"
